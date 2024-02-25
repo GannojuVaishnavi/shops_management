@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER PAGE</title>
+    <link href="./ucss.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/28ec243a89.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="content">
+        <div id="header">
+            <div id="top">
+                <button id="logout" onclick="logout()">LOGOUT</button>
+            </div>
+            <div id="locationselect">
+                <h3>FIND THE TOP ZUDIO STORE NEAR YOU:</h3>
+                <select id="enter-location">
+                    <option selected>SELECT LOCATION</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Andhra pradesh">Andra Pradesh</option>
+                    <option value="New delhi">New Delhi</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Madhya pradesh">Madhya pradesh</option>
+                </select>
+                <button id="getshops" onclick="userlocation()"  style="height: 50px;width: 50px;background-color: rgb(164, 161, 161);border: none"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div id="container">
+            </div>
+            <script src="./ujs.js"></script>
+</body>
+</html>

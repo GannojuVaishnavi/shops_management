@@ -1,0 +1,64 @@
+#userloginform {
+  font-size: 30px;
+  margin-left: 40%;
+  margin-top: 10%;
+  width: 400px;
+  padding-left: 60px;
+  /* padding-right: 20px; */
+  border: none
+}
+
+body {
+  background-image: url('./images/loginpage.png');
+  font-style: italic;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  font-family: "cursive";
+
+}
+
+#role {
+  width: 250px;
+  font-size: 20px;
+  height: 35px;
+  text-align: center;
+}
+
+input {
+  width: 250px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+#request {
+  height: auto;
+  font-size: 25px;
+  width: 75px;
+}
+
+#request:hover {
+  background-color: rgb(100, 100, 229);
+}
+
+#register {
+  height: auto;
+  font-size: 25px;
+  width: fit-content;
+}
+
+#register:hover {
+  background-color: rgb(100, 100, 229);
+}
+
+select {
+  height: 25px;
+  width: 75px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: solid black 1px;
+}
+
+input {
+  background-color: transparent;
+}

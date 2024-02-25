@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link href="./css.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <form id="userloginform" >
+        <!-- <label for="username">NAME:</label> -->
+        <!-- <input type="text" id="username" value= '<i class="fa-solid fa-user"></i>  USERNAME'><br><br> -->
+        <input type="text" id="username" placeholder="USERNAME"><br><br>
+
+        <!-- <label for="email">EMAIL:</label> -->
+        <input type="email" id="email" placeholder="EMAIL"><br><br>
+        <label for="role">Choose role:</label>
+        <select id="role" value="Role">
+            <option value="user">USER</option>
+            <option value="admin">ADMIN</option>
+        </select>
+        <br><br>
+        <input type="button" id="request" value="Login">
+        <input type="button" id="register" value="Register">
+    </form>
+    <script src="./js.js"></script>
+
+</body>
+</html>
